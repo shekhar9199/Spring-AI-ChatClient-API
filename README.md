@@ -2,7 +2,6 @@
 
 A learning-focused Spring Boot REST API that sends questions to an OpenAI chat model using Spring AI's fluent `ChatClient` API. It demonstrates a direct chat request, a resource-based prompt template, configuration through an environment variable, and controller tests that do not call an external AI service.
 
-> **Attribution:** This project is based on the [`chatclient-api` example](https://github.com/LearnCodeWithDurgesh/spring-ai-yt-series/tree/main/chatclient-api) from [LearnCodeWithDurgesh/spring-ai-yt-series](https://github.com/LearnCodeWithDurgesh/spring-ai-yt-series). This copy includes cleanup, documentation, and tests. Review the original repository's license and attribution terms before redistributing it.
 
 ## Features
 
@@ -169,7 +168,3 @@ The current test suite covers a successful chat request, a missing question para
 ## Limitations
 
 This is a small learning project, not a production-ready chatbot. It does not currently provide conversation history, streaming responses, authentication, rate limiting, a frontend, or dedicated handling for all provider/network failures. Live model requests require a valid key, network access, model availability, and may incur provider charges.
-
-## License and source
-
-The tutorial source is available at [LearnCodeWithDurgesh/spring-ai-yt-series/chatclient-api](https://github.com/LearnCodeWithDurgesh/spring-ai-yt-series/tree/main/chatclient-api). Check its license and attribution requirements before publishing or redistributing this modified copy.
