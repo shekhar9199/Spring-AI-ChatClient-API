@@ -1,0 +1,1 @@
+Explain the concept {concept}. Include a concise definition and a small Java example when it helps clarify the idea.

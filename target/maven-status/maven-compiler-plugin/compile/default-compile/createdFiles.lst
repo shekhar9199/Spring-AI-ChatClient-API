@@ -1,0 +1,6 @@
+com\spring\ai\firstproject\config\AiConfig.class
+com\spring\ai\firstproject\FirstProjectApplication.class
+com\spring\ai\firstproject\service\ChatService.class
+com\spring\ai\firstproject\service\ChatServiceImpl.class
+com\spring\ai\firstproject\controllers\ChatController.class
+com\spring\ai\firstproject\entity\Tut.class
